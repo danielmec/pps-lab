@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tdd.CircularListTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-02-27T18:40:18" hostname="Host-005.homenet.telecomitalia.it" time="0.014">
+  <properties/>
+  <testcase name="testPop()" classname="tdd.CircularListTest" time="0.007"/>
+  <testcase name="testPeek()" classname="tdd.CircularListTest" time="0.0"/>
+  <testcase name="testPush()" classname="tdd.CircularListTest" time="0.0"/>
+  <testcase name="testCircularPush()" classname="tdd.CircularListTest" time="0.0"/>
+  <testcase name="testGetMaxSize()" classname="tdd.CircularListTest" time="0.0"/>
+  <testcase name="testGetMax()" classname="tdd.CircularListTest" time="0.001"/>
+  <testcase name="testGetMin()" classname="tdd.CircularListTest" time="0.0"/>
+  <testcase name="testIsEmpty()" classname="tdd.CircularListTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

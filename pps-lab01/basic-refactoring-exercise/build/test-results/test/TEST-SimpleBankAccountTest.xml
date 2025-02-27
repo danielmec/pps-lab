@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SimpleBankAccountTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-24T09:56:39" hostname="MacBook-Pro-di-Daniel.local" time="0.009">
+  <properties/>
+  <testcase name="testWithdrawAnHigherAmountThanTheBalance()" classname="SimpleBankAccountTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
