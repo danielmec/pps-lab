@@ -42,7 +42,7 @@ public class CircularQueueImpl implements CircularQueue {
     @Override
     public int pop() {
         if (isEmpty()) {
-            throw new NoSuchElementException("La coda è vuota");
+            throw new NoSuchElementException("Empty");
         }
 
         int element = circularQueue.get(head);
@@ -57,7 +57,7 @@ public class CircularQueueImpl implements CircularQueue {
     @Override
     public int peek() {
         if (isEmpty()) {
-            throw new NoSuchElementException("La coda è vuota");
+            throw new NoSuchElementException("Empty");
         }
         return circularQueue.get(head);
     }
@@ -75,7 +75,7 @@ public class CircularQueueImpl implements CircularQueue {
     @Override
     public int getMax() {
         if (isEmpty()) {
-            throw new NoSuchElementException("La coda è vuota");
+            throw new NoSuchElementException("Empty");
         }
         int max = peek();
 
@@ -92,7 +92,7 @@ public class CircularQueueImpl implements CircularQueue {
     @Override
     public int getMin() {
         if (isEmpty()) {
-            throw new NoSuchElementException("La coda è vuota");
+            throw new NoSuchElementException("Empty");
         }
         int min = peek();
         for (int i = 0; i < size; i++) {
